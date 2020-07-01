@@ -1,0 +1,103 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>会员中心</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<style>
+			.my_bg{
+					background-color: rgba(0,0,0,.08);
+					}
+			.my_header,.my_footer{
+				width: 100%;
+				border:0;
+			}
+			@media (min-width:576px){
+				.my_header{
+					height: 9rem;
+				}
+				.my_footer{
+					height: 35rem;}
+			}
+			@media (min-width:992px){
+				.my_header{
+					height: 9rem;
+				}
+				.my_footer{
+					height: 35rem;}
+			.login_bg{
+				background-image: url(img/star1.bmp);
+				width: 100%;
+				height: 400px;
+			}
+			.my_tdn a {text-decoration: none;}
+			.my_form{
+				width:300px ;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<iframe class="my_header" src="header.html" scrolling="no"></iframe>
+		</header>
+		<div class="container text-center">
+			<div class="h2 text-center mt-5">
+				会员中心
+			</div>
+			<form class="form-group text-center p-3 mt-5 bg-light" >
+				<div class="h4">会员注册</div>
+				<div class="mt-4 text-left">
+					会员名
+					<input class="form-control " type="text" placeholder="会员名">
+				</div>
+				<div class="mt-4 text-left">
+					密码
+					<input class="form-control" type="text" placeholder="密码">
+				</div>
+				<div class="mt-4 text-left">
+					再次输入密码
+					<input class="form-control" type="text" placeholder="再次输入密码">
+				</div>
+				<div class="mt-4 text-left">
+					验证码
+					<input class="form-control" type="text" placeholder="验证码">
+				</div>
+				<div class="my-4 ">
+					更多资料
+				</div>
+				<div class="mt-4 text-left">
+					公司名称
+					<input class="form-control" type="text" placeholder="公司名称">
+				</div>
+				<div class="mt-4 text-left">
+					公司传真
+					<input class="form-control" type="text" placeholder="公司传真">
+				</div>
+				<div class="mt-4 text-left">
+					公司联系地址
+					<input class="form-control" type="text" placeholder="公司联系地址">
+				</div>
+				<div class="mt-4 text-left">
+					公司邮编
+					<input class="form-control" type="text" placeholder="公司邮编">
+				</div>
+				<div class="mt-4 text-left">
+					公司网址
+					<input class="form-control" type="text" placeholder="公司网址">
+				</div>
+				<div class="mt-4">
+					<button class="btn btn-primary w-100 " >立即注册</button>
+				</div>
+				<div class="mt-4 text-right">
+					<a class="btn " href="">已有账号？</a>
+				</div>
+			</form>
+		</div>
+		<footer>
+		<iframe class="my_footer" src="footer.html" scrolling="no"></iframe>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,94 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<style>
+			.my_bg{
+					background-color: rgba(0,0,0,.08);
+					width: 100%;
+					}
+			.my-bg1{background-color: #0f0f0f;}
+		</style>
+	</head>
+	<body>
+		<div class="container my_bg ">
+			<div class="navbar navbar-dark my-bg1 navbar-expand-md">
+				<!-- 1.不折叠的菜单项 -->
+				<a href="" class="navbar-logo vertical-align  pull-md-left" title="深圳子弹头电子有限公司-官方网站">
+				  <div class="vertical-align-middle">
+				    <img src="img/brand.png" alt="深圳子弹头电子有限公司-官方网站">
+				  </div>
+				 </a>
+				<!-- 2.按钮小屏显示，大屏隐藏，折叠激活按钮 -->
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#d1">
+					<!-- 折叠按钮菜单-三条线 -->
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- 3.菜单小屏隐藏，大屏显示。小屏纵向，大屏横向 -->
+				<div id="d1" class="collapse navbar-collapse">
+					<ul class="navbar-nav justify-content-end">
+						<li class="nav-item ">
+							<a class="nav-link" href="#">淘宝商城</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">3721商城</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">视频中心</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="#">登录</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="#">注册</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row no-gutters">
+				<div class="col  ">
+					<ul class="navbar-nav navbar-expand text-muted ">
+						<li class="nav-item mr-3">
+							<a class="nav-link text-muted" href="#"><h5>网站首页</h5></a>
+						</li>
+						<li class="nav-item  mr-3">
+							<div class="dropdown">
+								<a data-toggle="dropdown" class="btn text-muted dropdown-toggle" href="#">品牌故事</a>
+								<ul class="dropdown-menu my_tdn ">
+									<li><a class="text-muted my_bg" href="#">全部</a></li>
+									<li><a class="text-muted my_bg" href="#">公司简介</a></li>
+									<li><a class="text-muted my_bg" href="#">企业文化</a></li>
+									<li><a class="text-muted my_bg" href="#">品牌优势</a></li> 
+									<li><a class="text-muted my_bg" href="#">加入我们</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item  mr-3">
+							<a class="nav-link text-muted" href="#">智能指纹锁</a>
+						</li>
+						<li class="nav-item  mr-3">
+							<div class="dropdown">
+								<a data-toggle="dropdown" class="btn text-muted dropdown-toggle" href="#">品牌故事</a>
+								<ul class="dropdown-menu my_tdn ">
+									<li><a class="text-muted my_bg" href="#">全部</a></li>
+									<li><a class="text-muted my_bg" href="#">居家/家庭</a></li>
+									<li><a class="text-muted my_bg" href="#">酒店</a></li>
+									<li><a class="text-muted my_bg" href="#">办公楼</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link text-muted" href="#">新闻中心</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

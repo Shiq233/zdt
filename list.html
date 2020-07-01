@@ -1,0 +1,82 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>list</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<style>
+			.my_bg{
+					background-color: rgba(0,0,0,.08);}
+			.my_header,.my_footer{
+				width: 100%;
+				border:0;
+			}
+			@media (min-width:576px){
+				.my_header{
+					height: 9rem;
+				}
+				.my_footer{
+					height: 35rem;}
+			}
+			@media (min-width:992px){
+				.my_header{
+					height: 9rem;
+				}
+				.my_footer{
+					height: 35rem;}
+		</style>
+	</head>
+	<body>
+		<header>
+			<iframe class="my_header" src="header.html" scrolling="no"></iframe>
+		</header>
+		<div class="container my_bg mb-5">
+			<ul class="nav justify-content-start  mb-3">
+				<li class="nav-item"><a class="nav-link text-muted" href="#">推荐</a></li>
+				<li class="nav-item"><a class="nav-link text-muted" href="#">热门</a></li>
+				<li class="nav-item"><a class="nav-link text-muted" href="#">最新</a></li>
+			</ul>
+			<div class="row no-gutters">
+				
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="text-muted">
+						<img class="w-100" src="img/p1.jpg" alt="">
+						<h4>锁体图片</h4>
+						<a class="btn btn-secondary w-50" href="#">查看详情</a>
+					</div>
+				</div>
+				<div class="d-sm-none d-md-block col-md-6 col-lg-3 border ">
+					<div class="text-muted">
+						<img class="w-100" src="img/p2.jpg" alt="">
+						<h4>新品展示</h4>
+						<p>F1768k10</p>
+						<a class="btn btn-secondary w-50" href="#">查看详情</a>
+					</div>
+				</div>
+				<div class="d-sm-none d-lg-block col-md-6 col-lg-3 border">
+					<div class="text-muted">
+						<img class="w-100" src="img/p1.jpg" alt="">
+						<h4>安装视频</h4>
+						<p>k8/k9/k11等相关安装视频</p>
+						<a class="btn btn-secondary w-50" href="#">查看详情</a>
+					</div>
+				</div>
+				<div class="d-sm-none d-lg-block col-md-6 col-lg-3 border ">
+							<div class="text-muted">
+								<img class="w-100" src="img/p1.jpg" alt="">
+								<h4>子弹头电子相关链接</h4>
+								<p>淘宝商城/3721商城/视频中心</p>
+								<a class="btn btn-secondary w-50" href="#">查看详情</a>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		<footer>
+			<iframe class="my_footer" src="footer.html" scrolling="no"></iframe>
+		</footer>
+	</body>
+</html>
